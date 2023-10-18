@@ -64,23 +64,26 @@ h4{
 
 }
 .error{
-    animation: shake 0.01s linear 10;
+
+    animation-name: shake;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 @keyframes shake{
     0%{
-        transform: translateX(0px);
+        transform: translateY(0px);
     }
     25%{
-        transform: translateX(-2px);
+        transform: translateY(-10px);
     }
     50%{
-        transform: translateX(0px);
+        transform: translateY(10px);
     }
     75%{
-        transform: translateX(2px);
+        transform: translateY(-10px);
     }
     100%{
-        transform: translateX(0px);
+        transform: translateY(0px);
     }
     
 
