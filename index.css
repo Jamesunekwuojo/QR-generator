@@ -1,20 +1,20 @@
 body{
-    background-color: rgb(100, 177, 177);
+    background: linear-gradient(to bottom, wheat, cyan);
     width: 100%;
     height: 100%;
 
 }
 .boxdiv{
     display: flex;
-    
     justify-content: center;
+    height: 600px;
     
     
 }
 .bodycontainer{
     width: 300px;
     height: 400px;
-    background-color: #f5d6b3;
+    background-color:white;
     padding: 10px;
     border-radius: 5px;
 
@@ -29,8 +29,10 @@ button{
     cursor: pointer;
 }
 input{
+    position: relative;
     border-radius: 5px;
     font-size: large;
+    width: 200pxC;
 }
 
 #QRbox{
@@ -48,4 +50,8 @@ input{
     max-height:200px ;
     margin-bottom: 5px;
     
+}
+h3 {
+    margin-left: 10px;
+
 }
