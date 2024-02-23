@@ -14,7 +14,7 @@ body{
 .bodycontainer{
     width: 300px;
     height: 400px;
-    background-color:white;
+    background-color:rgb(27, 29, 112);
     padding: 10px;
     border-radius: 5px;
 
@@ -23,7 +23,7 @@ button{
     border-radius: 10px;
     background-color:#000000 ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: large;
     margin-top: 10px;
     cursor: pointer;
@@ -61,6 +61,8 @@ h3 {
 }
 h4{
     margin-left: 100px;
+    color: white;
+    font-size: larger;
 
 }
 .error{
